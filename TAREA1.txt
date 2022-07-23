@@ -1,0 +1,17 @@
+System. out.println("Bienvenido a Progra 2 2022");Bienvenido a Progra 2 2022
+
+package Prueba;
+
+import java.util.Scanner;
+
+public class tarea {
+    public static void main(String[] args) {
+        System.out.println ("Por favor ingrese su nombre:");
+        String entradaTeclado = "";
+
+        Scanner entradaEscaner = new Scanner (System.in); 
+        entradaTeclado = entradaEscaner.nextLine (); 
+
+        System.out.println ("Bienvenido a Progra 2 2022 \"" + entradaTeclado +"\"");
+    }
+}
